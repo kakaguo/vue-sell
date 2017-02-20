@@ -5,6 +5,5 @@ npm-debug.log
 /resource/
 .idea/inspectionProfiles/
 git
-src/common/js/
 .idea/vcs.xml
 .idea/workspace.xml
