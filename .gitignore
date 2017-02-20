@@ -7,3 +7,4 @@ npm-debug.log
 git
 src/common/js/
 .idea/vcs.xml
+.idea/workspace.xml
