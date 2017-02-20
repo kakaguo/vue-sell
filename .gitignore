@@ -3,3 +3,7 @@ node_modules/
 dist/
 npm-debug.log
 /resource/
+.idea/inspectionProfiles/
+git
+src/common/js/
+.idea/vcs.xml
