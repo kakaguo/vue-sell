@@ -60,7 +60,6 @@
         if (!event._constructed) {
           return;
         }
-        console.log('type', type);
         this.$emit('select', type);
       },
       totalContent(event) {
@@ -121,6 +120,4 @@
         display inline-block
         vertical-align top
         font-size 12px
-
-
 </style>
