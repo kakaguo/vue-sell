@@ -17,6 +17,7 @@
 </template>
 
 <script>
+  import {urlParse} from 'common/js/util';
   import header from './components/header/header.vue';
 
   const ERR_OK = 0;
@@ -24,7 +25,14 @@
   export default {
     data() {
       return {
-        seller: {}
+        seller: {
+          id: (() => {
+            let queryParam = urlParse();
+            console.log('1');
+            console.log(queryParam);
+            return queryParam.id;
+          })()
+        }
       };
     },
     created() {

@@ -284,6 +284,7 @@
               .text
                 line-height 16px
                 font-size 12px
+
           .bulletin
             width 80%
             margin 0 auto
